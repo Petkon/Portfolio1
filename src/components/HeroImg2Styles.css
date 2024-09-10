@@ -1,0 +1,38 @@
+.hero-img {
+  width: 100%;
+  background-color: rgba (0, 0, 0, 0.5);
+  height: 60vh;
+  position: relative;
+}
+.hero-img::before {
+  content: "";
+  background-image: url("https://media.istockphoto.com/id/1390600440/photo/digital-cyberspace-and-digital-data-network-connections-high-speed-connection-and-big-data.jpg?s=2048x2048&w=is&k=20&c=HH002Gc4YilGhuTUYy6enwNHcB4A_Kwj303cOLxl6jY=");
+  background-size: cover;
+  background-position: center top;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.heading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-img h1 {
+  font-size: 2.4rem;
+}
+.hero-img p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+@media screen and (max-width: 640px) {
+  .hero-img h1 {
+    font-size: 2rem;
+  }
+}

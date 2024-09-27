@@ -3,25 +3,28 @@ import pro2 from "../assets/project2.png"
 import pro3 from "../assets/project3.png"
 
 
-const ProjectCardData = [
+const WorkCardData = [
 
 {
     imgsrc: pro1,
-    title: "Ecommerse  Website Design",
-    text: "Thriving Facebook community and top-ranked podcast ,Amy inspires a grounded ,tangible and self-affirming sense of 'Wow! I really can do this' far over 100,000 online enterpreneurs. Best -selling marketing courses.",
-    view: "https://www.youtube.com/watch?v=P8YuWEkTeuE&list=PL9bD98LkBR7P8MYh0RzNSHgeVNTA8g0nB"
+    title: "My First Portfolio.",
+    text: "It's a small project for my first portfolio.I'm trying to learn new things.",
+    view: "https://github.com/Petkon/Portfolio1.git",
+
+    
+
 },
 {
     imgsrc: pro2,
-    title: "LMS/Course Website Design",
-    text: "Podcast Thriving Facebook community and top-ranked ,Amy inspires a grounded ,tangible and self-affirming sense of 'Wow! I really can do this' far over 100,000 online enterpreneurs. Best -selling marketing courses.",
-    view: "https://www.youtube.com/watch?v=P8YuWEkTeuE&list=PL9bD98LkBR7P8MYh0RzNSHgeVNTA8g0nB"
+    title: "To-do-list",
+    text: "This is a small project for your daily to do lists.",
+    view: "https://github.com/Petkon/To-do-list.git"
 },
 {
     imgsrc: pro3,
-    title: "Rymo Ecommerse Design",
-    text: "Top-ranked Thriving Facebook community and podcast ,Amy inspires a grounded ,tangible and self-affirming sense of 'Wow! I really can do this' far over 100,000 online enterpreneurs. Best -selling marketing courses.",
-    view: "https://www.youtube.com/watch?v=P8YuWEkTeuE&list=PL9bD98LkBR7P8MYh0RzNSHgeVNTA8g0nB"
+    title: "Weather App",
+    text: "This is a good loking Weather app you can easy type any town in the world to see what's the weather there.",
+    view: "https://github.com/Petkon/WeatherApp.git"
 },
 ];
-export default ProjectCardData
+export default WorkCardData
